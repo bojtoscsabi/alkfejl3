@@ -1,0 +1,32 @@
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <div class="form-group">
+            <label for="name" class="col-lg-2 control-label">Név</label>
+            <div class="col-lg-10">
+                    <input required class="form-control" id="name" name="name" placeholder="" type="text" value="{{data.name}}">
+                    <div class="help-block with-errors"></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="description" class="col-lg-2 control-label">Leírás</label>
+            <div class="col-lg-10">
+                    <textarea required class="form-control" rows="3" id="description" name="description">{{data.description}}</textarea>
+                    <span class="help-block">Elkészítése</span>
+                    <div class="help-block with-errors"></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="ingredients" class="col-lg-2 control-label">Hozzávalók</label>
+            <div class="col-lg-10">
+                    <input class="form-control" id="ingredients" name="ingredients" value="{{data.ingredient_list}}">
+                    <div class="help-block with-errors"></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button {{action "submit"}} class="btn btn-primary">Mentés</button>
+                {{link-to "Mégsem" "recipes.list" class="btn btn-default"}}
+            </div>
+        </div>
+    </fieldset>
+</form>
