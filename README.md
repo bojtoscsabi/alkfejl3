@@ -4,8 +4,7 @@ Bojtos Csaba (FWCSZH)
 ## Receptek és hozzávalók
 
 ### Követelményanalízis
-A beadandó célja egy webes vastagkliens, azaz egyoldalas alkalmazás készítése Ember.js segítségével. 
-A feladatnak minimálisan tartalmaznia kell:
+A beadandó célja egy webes vastagkliens, azaz egyoldalas alkalmazás készítése Ember.js segítségével, amelyre a következő feltételek teljesülnek:
 
 * legalább két modellt, egy-sok kapcsolatban
 * legalább 1 űrlapot
@@ -14,7 +13,7 @@ A feladatnak minimálisan tartalmaznia kell:
 * legyen lehetőség meglévő szerkesztésére
 * legyen lehetőség meglévő törlésére
 * REST API végpont kialakítása
-* szerveroldali perzisztálás fájlba
+* szerveroldali perzisztálás fájlba történik
 
 #### Használatieset-modell
 
